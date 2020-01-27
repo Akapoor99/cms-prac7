@@ -14,7 +14,7 @@ include( "inc_nav.php" ); ?>
     <h2>This is a new test page</h2>
 
     <h3>Ordered List Example</h3>
-    <ul>
+    <ol>
       <?php
         $services = array("Example 1", "Example 2", "Example 3", "Example 4", "Example 5");
         foreach ($services as $service) {
@@ -25,7 +25,7 @@ include( "inc_nav.php" ); ?>
           echo "<li>".$msg."</li>";
         }
       ?>
-    </ul>
+    </ol>
 
 </section>
 <?php include( "inc_footer.php" );
