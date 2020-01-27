@@ -10,9 +10,11 @@
 <body>
 <?php include("inc_header.php");
 include("inc_nav.php"); ?>
-<?php  
+<?php
 if (isset($_REQUEST['name'])) {
-    echo "<h2>Thank you ". $_REQUEST['name']."</h2>";
+  if(isset($_REQUEST['gender_0'])){
+    echo "<h2>Thank you Mr.". $_REQUEST['name']."</h2>";
+  }
 }
 else {
     echo "<h2>Please subscribe</h2>";
