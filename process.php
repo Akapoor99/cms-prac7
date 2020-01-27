@@ -12,10 +12,12 @@
 include("inc_nav.php"); ?>
 <?php
 if (isset($_REQUEST['name'])) {
-  if(isset($_REQUEST) && ($_REQUEST['gender'] == 'male')){
-    echo "<h2>Thank you Mr.". $_REQUEST['name']."</h2>";
-  }elseif(isset($_REQUEST) && ($_REQUEST['gender'] == 'female')){
+  if(isset($_REQUEST){
+    if($_REQUEST['gender'] == 'male'){
+      echo "<h2>Thank you Mr.". $_REQUEST['name']."</h2>";
+    }else{
       echo "<h2>Thank you Mrs.". $_REQUEST['name']."</h2>";
+    }
   }else{
     echo "<h2>Thank you ". $_REQUEST['name']."</h2>";
   }
