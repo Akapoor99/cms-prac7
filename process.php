@@ -12,7 +12,7 @@
 include("inc_nav.php"); ?>
 <?php
 if (isset($_REQUEST['name'])) {
-  if($_REQUEST['gender_0'] == 'checked'){
+  if($_REQUEST['gender'] == 'gender_0'){
     echo "<h2>Thank you Mr.". $_REQUEST['name']."</h2>";
   }
 }
