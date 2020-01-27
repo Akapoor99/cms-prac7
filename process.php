@@ -14,16 +14,20 @@ include("inc_nav.php"); ?>
 if (isset($_REQUEST['name'])) {
   if(isset($_REQUEST['gender'])){
     if($_REQUEST['gender'] == 'male'){
-      echo "<h2>Thank you Mr.". $_REQUEST['name']."</h2>";
+      getDisplayMsg("Mr.", $_REQUEST['name']);
     }else{
-      echo "<h2>Thank you Mrs.". $_REQUEST['name']."</h2>";
+      getDisplayMsg("Mrs.", $_REQUEST['name']);
     }
   }else{
-    echo "<h2>Thank you ". $_REQUEST['name']."</h2>";
+    getDisplayMsg("", $_REQUEST['name']);
   }
 }
 else {
     echo "<h2>Please subscribe</h2>";
+}
+
+function getDisplayMsg($greeting, $name){
+  echo "<h2>Thank you ".$greeting." ".$name."</h2>";
 }
 ?>
 
