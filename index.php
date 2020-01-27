@@ -29,6 +29,11 @@ include( "inc_nav.php" ); ?>
     <ul>
       <?php
         $services = array("Learning", "Relationships", "Technology", "Coffee", "and so much more...");
+        foreach ($services as $service) {
+          // code...
+          echo '<li>'+$service+'</li>';
+        }
+        //echo '<li>'+$services[]
       ?>
     </ul>
 
