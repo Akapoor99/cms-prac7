@@ -21,7 +21,7 @@ include( "inc_nav.php" ); ?>
           echoList($service);
         }
 
-        function echoLists($msg){
+        function echoList($msg){
           echo "<li>".$msg."</li>";
         }
       ?>
