@@ -16,7 +16,7 @@ include( "inc_nav.php" ); ?>
     <h3>Ordered List Example</h3>
     <ol>
       <?php
-        $services = array("Example 1", "Example 2", "Example 3", "Example 4", "Example 5");
+        $services = array("abcd", "efgh", "ijkl", "mnop", "qrst", "uvwx", "yz");
         foreach ($services as $service) {
           echoList($service);
         }
