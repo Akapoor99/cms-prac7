@@ -2,3 +2,4 @@
 db/test.sqlite
 other
 node_modules/
+githubhook.php
