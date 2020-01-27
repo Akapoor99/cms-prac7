@@ -35,6 +35,9 @@ include( "inc_nav.php" ); ?>
     </ul>
 
 </section>
-<?php include( "inc_footer.php" ); ?>
+<?php include( "inc_footer.php" ); 
+#test commit
+?>
 </body>
 </html>
+
