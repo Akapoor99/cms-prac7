@@ -1,7 +1,8 @@
-# theadviceshop
+# CMS - Practical 07
 *The Advice Shop Website*
 
-This is an Example Site for Web Design (CP1406, CP3402) at JCU
+This is an Edited edition of theadviceshop for practical 07 CP3402 
+submission
 
 First created for the 2015 class in Townsville, by Lindsay Ward
 
