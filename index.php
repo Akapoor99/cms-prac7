@@ -27,17 +27,14 @@ include( "inc_nav.php" ); ?>
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
     <ul>
-        <li>Learning</li>
-        <li>Relationships</li>
-        <li>Technology</li>
-        <li>Coffee</li>
-        <li>and so much more...</li>
+      <?php
+        $services = array("Learning", "Relationships", "Technology", "Coffee", "and so much more...");
+      ?>
     </ul>
 
 </section>
-<?php include( "inc_footer.php" ); 
+<?php include( "inc_footer.php" );
 #test commit
 ?>
 </body>
 </html>
-
